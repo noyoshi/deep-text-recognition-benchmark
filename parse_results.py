@@ -65,7 +65,7 @@ def test():
 def main():
     # maybe make it read from multiple places?
     # samples = ["CRAFT", "EAST", "USC", "GCP_lang_hints", "AWS", "GCP"]
-    samples = ["GCP", "CRAFT", "CRAFT_attn"]
+    samples = ["GCP", "GCP_crops", "CRAFT_attn"]
     # samples = ["AWS"]
     filenames = ["{}_indo.txt".format(name) for name in samples]
 

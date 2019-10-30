@@ -102,7 +102,7 @@ class Matcher(object):
 
     def get_perfect_matches(self):
         def perfect_matcher(parsed_word, true_word):
-            return parsed_word == true_word
+            return parsed_word.strip() == true_word.strip()
 
         return self.match(perfect_matcher)
 
